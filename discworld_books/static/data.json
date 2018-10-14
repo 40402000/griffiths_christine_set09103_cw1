@@ -1,0 +1,10 @@
+[{
+    "title":"The Colour of Magic",
+    "description": "In Terry Pratchett’s first ever Discworld novel, Rincewind decides that ‘tourist’ means idiot.",
+    "image": "<img src="../static/images/the_colour_of_magic1.jpg"/>"
+},
+{
+    "title":"The Light Fantastic",
+    "description": "In TerryPratchett’s second Discworld novel, Rincewind decides that panic is the best means of survival..",
+    "image": "<img src="../static/images/the_light_fantastic1.jpg"/>"
+}]
