@@ -7,13 +7,49 @@
 			<meta name="description" content="Discworld Books App">
 			<meta name="author" content="Christine Griffiths">
 			<title>Discworld Books App</title>
-			<!--styles-->	
-		<link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+			<!--styles-->
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<script src="https://use.fontawesome.com/bbbc58216b.js"></script>
+			 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" 
+			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>	
+			<link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
 		</head>
 	<body>
+		<div class ="container bodyContainer">
+	<!-- Navigation -->
+	<nav class="navbar navbar-default">
+      <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				
+			<a class="navbar-brand"  href="#">Discworld Books App</a>
+				
+            </div><!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav navbar-right">
+					<li class ="active"><a href="index.html">Home</a></li>
+	                <li><a href="#">Chronologically</a></li>
+        	        <li><a href="#">The City Watch</a></li>
+	                <li><a href="#">The Witches</a></li>
+	                <li><a href="#">Death</a></li>
+			<li><a href="#">Rincewind/The Wizards</a></li>
+			<li><a href="#">Tiffany Aching</a></li>
+			<li><a href="#">For Younger Readers</a></li>
+                </ul>
+            </div><!-- collapse navbar-collapse -->
+      </div><!-- close container -->
+    </nav>
 	<h1>Welcome to the Discworld Books App!</h1>
-
-	<p>This site gives you every possible reading order for Terry pratchett's Discworld series of books</p>
+	<img src="../static/images/SideBySide.jpg"/>
+	<p>This CHANGE site gives you every possible reading order for Terry Pratchett's Discworld series of books</p>
 	
 	<h2>Chronologically</h2>
 	<h2>The City Watch</h2>
@@ -23,9 +59,10 @@
 	<h2>Rincewind/The Wizards</h2>
 	<h2>Tiffany Aching and the Nac Mac Feegles</h2>
 	<h2>For Younger Readers</h2>
+	</div>
+	<script src="includes/js/jquery2.min.js"></script>
+	<script src="includes/js/bootstrap.min.js"></script>
 	</body>
+
+
 </html>
-
-
-
-
