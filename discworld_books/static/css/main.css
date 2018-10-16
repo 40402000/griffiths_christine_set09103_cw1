@@ -1,9 +1,5 @@
-body {
-padding: 60px 0;
-background: #ffffff;
-}
 
-p {
+p, ol, ul, li, a {
 font-family: 'Noto Sans', serif;
 }
 
@@ -12,15 +8,14 @@ font-family: 'Noto Serif', sans-serif;
 
 }
 
-#wrapper {
-      background-image: url('../img/bg3.jpg');
-    background-attachment: fixed;
-    background-position: center center;
-/* end edit */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #111;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
+div.container{
+background-color: #FFFFFF;
+}
+
+div.wrapper {
+background-image: url("../images/discworld.jpg");
+ background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
 }
