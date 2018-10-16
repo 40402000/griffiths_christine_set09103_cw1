@@ -10,12 +10,23 @@ font-family: 'Noto Serif', sans-serif;
 
 div.container{
 background-color: #FFFFFF;
-}
-
+    margin-left: auto;
+    margin-right: auto;
+	}
 div.wrapper {
 background-image: url("../images/discworld.jpg");
  background-repeat: no-repeat;
     background-size: 100% 100%;
 
 
+}
+
+h1 {
+text-align: center;
+}
+
+nav.navbar.navbar-default { 
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
 }
