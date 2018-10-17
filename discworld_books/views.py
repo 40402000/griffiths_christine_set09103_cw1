@@ -45,7 +45,7 @@ def moist_von_lipwig():
         SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
         with open(os.path.join(SITE_ROOT,'static', 'data.json')) as f:
                 data = json.load (f)
-                return render_template ('moist_von_lipwig', data=data)
+                return render_template ('moist_von_lipwig.html', data=data)
 
 
 @app.route('/rincewind_the_wizards')
