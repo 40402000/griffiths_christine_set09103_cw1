@@ -1,0 +1,331 @@
+[
+        {
+            "title": "The Colour of Magic", 
+            "theme": "RincewindThe Wizards", 
+            "image": "the_colour_of_magic1.jpg", 
+            "url": "the_colour_of_magic",
+            "cat_url": "rincewind_the_wizards",
+            "desc":"The book that started it all! The first ever novel in Terry Pratchett’s Discworld series introduces us to the landscape and characters of this literary universe in a fantastic romp around the Discworld! The Colour of Magic features the wizards of Unseen University, dragons, demons, and unlikely heroes in the shape of a failed student of magic, a hostile box with hundreds of little legs!"
+        },
+        {
+            "title": "The Light Fantastic", 
+            "theme": "RincewindThe Wizards", 
+            "image": "the_light_fantastic1.jpg",
+            "url": "the_light_of_fantastic",
+            "cat_url": "rincewind_the_wizards",
+            "desc":"Catch up with Rincewind, Twoflower and the Luggage as they plummet over the edge of the world in Terry Pratchett’s second Discworld novel and face encounters with creatures the Dungeon Dimenson, trolls, druids, and the impending impact of a malevolent red star!"
+        },
+        {
+            "title": "Equal Rights", 
+            "theme": "The Witches", 
+            "image": "equal_rites1.jpg", 
+            "url": "the_colour_of_magic",
+            "cat_url": "the_witches",
+            "desc":"Terry Pratchett’s third Discworld adventure introduces Granny Weatherwax in a story of magic and female empowerment - magical empowerment no less! Equal Rites sees the traditions of Unseen University challenged in a battle of the sexes initiated by the arrival of Eskarina Smith - the Discworld's first female wizard!"
+        },
+        {
+            "title": "Mort", 
+            "theme": "Death", 
+            "image": "mort1.jpg", 
+            "url": "mort",
+            "cat_url": "death",
+            "desc":"Death returns in Terry Pratchett’s fourth Discworld adventure, and he's hired an apprentice! But will Death's new assistant be up to the job of the Reaper Man?"
+        },
+        {
+            "title": "Sourcery", 
+            "theme": "RincewindThe Wizards", 
+            "image": "sourcery1.jpg", 
+            "url": "sourcery",
+            "cat_url": "rincewind_the_wizards",
+            "desc":"Terry Pratchett’s fifth Discworld adventure is bursting with magic. Lots of it. Ankh-Morpork's ancient Unseen University is in the hands of a wizard squared- a sourcerer with more power than any young lad should be trusted with. Can Rincewind save the UU and indeed the Discworld from another mage war?"
+        },
+        {
+            "title": "Wyrd Sisters", 
+            "theme": "The Witches", 
+            "image": "wyrd_sisters1.jpg", 
+            "url": "wyrd_sisters",
+            "cat_url": "the_witches",
+            "desc":"Meet the Lancre witches Granny Weatherwax, Nanny Ogg, Magrat Garlick! This magical cast of characters takes centre stage in Terry Pratchett's bewitching Discworld novel as they face the consequences of a right royal murder!"
+        },
+        {
+            "title": "Pyramids", 
+            "theme": "Chronologically", 
+            "image": "pyramids1.jpg", 
+            "url": "pyramids",
+            "cat_url": "chronologically",
+            "desc":"Young Pteppic is a trained assassin at Ankh-Morpork's esteemed Assassins' Guild. He'd also suddenly king of Djelibeybi, and not quite prepared for the job. Terry Pratchett’s seventh Discworld adventure is set in an exotic kingdom, where gods and pyramids play havoc with a new ruler!"
+        },
+        {
+            "title": "Guards! Guards!", 
+            "theme": "The City Watch", 
+            "image": "guards_guards1.jpg", 
+            "url": "guards_guards",
+            "cat_url": "the_city_watch",
+            "desc":"Terry Pratchett’s eighth Discworld adventure, introducing Sam Vimes & the Ankh-Morpork City Watch in a battle against wrong'uns and dragons!"
+        },
+        {
+            "title": "Faust Eric", 
+            "theme": "RincewindThe Wizards", 
+            "image": "eric1.jpg", 
+            "url": "faust_eric",
+            "cat_url": "rincewind_the_wizards",
+            "desc":"Terry Pratchett's ninth Discworld adventure, a hilarious parody of the Faust legend featuring the Discworld's only demonology hacker. Pity he's not very good at it!"
+        },
+        {
+            "title": "Moving Pictures", 
+            "theme": "Chronologically", 
+            "image": "moving_pictures1.jpg", 
+            "url": "moving_pictures",
+            "cat_url": "chronologically",
+            "desc":"Terry Pratchett’s tenth Discworld adventure, featuring clickies, superstars, and supernatural showbusiness!"
+        },
+        {
+            "title": "Reaper Man", 
+            "theme": "Death", 
+            "image": "reaper_man1.jpg", 
+            "url": "reaper_man",
+            "cat_url": "death",
+            "desc":"Death is missing presumed, er, gone in Terry Pratchett’s celebrated eleventh Discworld adventure (and on a little farm far, far away, a tall dark stranger is turning out to be really good with a scythe)!"
+        },
+        {
+            "title": "Witches Abroad", 
+            "theme": "The Witches", 
+            "image": "witches_abroad1.jpg", 
+            "url": "witches_abroad",
+            "cat_url": "the_witches",
+            "desc":"Death is missing presumed, er, gone in Terry Pratchett’s celebrated eleventh Discworld adventure (and on a little farm far, far away, a tall dark stranger is turning out to be really good with a scythe)!"
+        },
+        {
+            "title": "Small Gods", 
+            "theme": "Chronologically", 
+            "image": "small_gods1.jpg", 
+            "url": "small_gods",
+            "cat_url": "chronologically",
+            "desc":"Terry Pratchett’s thirteenth Discworld adventure, tackling religion, inquisitions and divine manifestations!"
+        },
+        {
+            "title": "Lords and Ladies", 
+            "theme": "The Witches", 
+            "image": "lords_and_ladies_play1.jpg", 
+            "url": "lords_and_ladies",
+            "cat_url": "the_witches",
+            "desc":"Terry Pratchett’s fourteenth Discworld adventure, featuring the witches, Morris dancers and some very wicked elves..."
+        },
+        {
+            "title": "Men at Arms", 
+            "theme": "The City Watch", 
+            "image": "men_at_arms1.jpg", 
+            "url": "men_at_arms",
+            "cat_url": "the_city_watch",
+            "desc":"Terry Pratchett’s fifteenth Discworld adventure, featuring the City Watch, a lycanthropic new recruit, and a sword in a stone!"
+        },
+        {
+            "title": "Soul Music", 
+            "theme": "Death", 
+            "image": "soul_music1.jpg", 
+            "url": "soul_music",
+            "cat_url": "death",
+            "desc":"Terry Pratchett's sixteenth Discworld adventure, featuring sex, drugs and Music With Rocks In (well, one out of three ain't bad)!"
+        },
+        {
+            "title": "Interesting times", 
+            "theme": "RincewindThe Wizards", 
+            "image": "interesting_times1.jpg", 
+            "url": "interesting_times",
+            "cat_url": "rincewind_the_wizards",
+            "desc":"Terry Pratchett's seventeenth Discworld adventure, featuring Death, War, and a cowardly wizzard and an ancient Empire in turmoil!"
+        },
+        {
+            "title": "Maskerade", 
+            "theme": "The Witches", 
+            "image": "maskerade2.jpg", 
+            "url": "maskerade",
+            "cat_url": "the_witches",
+            "desc":"Terry Pratchett' eighteenth Discworld adventure, starring opera! witches, and a maniacal mastermind in a mask!"
+        },
+        {
+            "title": "Feet of Clay", 
+            "theme": "The City Watch", 
+            "image": "feet_of_clay1.jpg", 
+            "url": "feet_of_clay",
+            "cat_url": "the_city_watch",
+            "desc":"Terry Pratchett's nineteenth Discworld adventure, featuring a werewolf with pre-lunar tension, a dwarf with attitude and a golem who's begun to think for itself!"
+        },
+        {
+            "title": "Hogfather", 
+            "theme": "Death", 
+            "image": "hogfather1.jpg", 
+            "url": "hogfather",
+            "cat_url": "death",
+            "desc":"Hogfather is the 20th Discworld novel by Terry Pratchett. The Hogfather is also a character in the book, representing something akin to Father Christmas."
+        },
+        {
+            "title": "Jingo", 
+            "theme": "The City Watch", 
+            "image": "jingo1.jpg", 
+            "url": "jingo",
+            "cat_url": "the_city_watch",
+            "desc":"Terry Pratchett's twenty-first Discworld adventure, featuring warfare, warriors and some very Curious Squid!"
+        },
+        {
+            "title": "The Last Continent", 
+            "theme": "RincewindThe Wizards", 
+            "image": "the_last_continent1.jpg", 
+            "url": "the_last_continent",
+            "cat_url": "rincewind_the_wizards",
+            "desc":"Terry Pratchett's twenty-second Discworld adventure, featuring everyone's favourite wizzard Rincewind on a mission to save Fourecks, aka XXXX, aka Terror Incognita!"
+        },
+        {
+            "title": "Carpe Jugulum", 
+            "theme": "The Witches", 
+            "image": "carpe_jugulum1.jpg", 
+            "url": "carpe_jugulum",
+            "cat_url": "the_witches",
+            "desc":"Terry Pratchett's twenty-third Discworld adventure, starring witches, vampires, a priest called Mightily and a young witch with a split personality!"
+        },
+        {
+            "title": "The Fifth Elephant", 
+            "theme": "The City Watch", 
+            "image": "the_fith_elephant1.jpg", 
+            "url": "the_fith_elephant",
+            "cat_url": "the_city_watch",
+            "desc":"Terry Pratchett's twenty-fourth Discworld adventure, featuring Sam Vimes, werewolves, dwarfs, diplomacy, and a load of old fat!"
+        },
+        {
+            "title": "The Truth", 
+            "theme": "Chronologically", 
+            "image": "the_truth1.jpg", 
+            "url": "the_truth",
+            "cat_url": "chronologically",
+            "desc":"Journalism arrives in Ankh-Morpork in Terry Pratchett's twenty-fifth Discworld adventure, featuring a thundering printing press, murder and humorously-shaped vegetables! - 'The Truth Shall Make Ye Fret!'"
+        },
+        {
+            "title": "Thief of Time", 
+            "theme": "Death", 
+            "image": "the_theif_of_time1.jpg", 
+            "url": "theif_of_time",
+            "cat_url": "death",
+            "desc":"Terry Pratchett's twenty-sixth Discworld adventure, featuring history monk Lu-Tze and apprentice Lobsang Ludd in a race against time!"
+        },
+        {
+            "title": "The Last Hero", 
+            "theme": "Chronologically", 
+            "image": "the_last_hero.jpg", 
+            "url": "the_last_hero",
+            "cat_url": "chronologically",
+            "desc":"Terry Pratchett's short but perfectly formed illustrated Discworld adventure, the twenty-seventh book in the series starring legend-in-his-own-lifetime Cohen the Barbarian, fully & lavishy illustrated by Paul Kidby!"
+        },
+        {
+            "title": "The Amazing Maurice And His Educated Rodents", 
+            "theme": "For Younger Readers", 
+            "image": "the_amazing_maurice_and_his_educated_rodents1.jpg", 
+            "url": "the_amazing_maurice_and_his_educated_rodents",
+            "cat_url": "for_younger_readers",
+            "desc":"Thanks to snacking on magical waste behind the Unseen University, Ankh-Morpork's intelligent rodents are up to mischief in a new town, aided by a piper called Keith and a street-smart cat named Maurice! Terry Pratchett's Carnegie Medal-winning tale is one of our favourite Discworld stories for young readers and grown-ups alike! "
+        },
+        {
+            "title": "Night Watch", 
+            "theme": "The City Watch", 
+            "image": "night_watch1.jpg", 
+            "url": "night_watch",
+            "cat_url": "the_city_watch",
+            "desc":"Terry Pratchett's twenty-ninth Discworld adventure, featuring Ankh-Morpork's city watch, a glorious revolution, Truth! Justice! Freedom! And a Hard-boiled Egg!"
+        },
+        {
+            "title": "The Wee Free Men", 
+            "theme": "For Younger Readers", 
+            "image": "the_wee_free_men1.jpg", 
+            "url": "the_wee_free_men",
+            "cat_url": "for_younger_readers",
+            "desc":"Terry Pratchett’s thirtieth Discworld novel and first Tiffany Aching adventure, featuring a cast of witches, monsters, fairies and Nac Mac Feegles - CRIVENS!"
+        },
+        {
+            "title": "Monstrous Regiment", 
+            "theme": "Chronologically", 
+            "image": "monstrous_regiment1.jpg", 
+            "url": "monstrous_regiment",
+            "cat_url": "chronologically",
+            "desc":"Terry Pratchett's thirty-first Discworld adventure, featuring the Borogravian army's new recruit, an artful sergent, and a lot of socks..."
+        },
+        {
+            "title": "A Hat Full of Sky", 
+            "theme": "For Younger Readers", 
+            "image": "a_hat_full_of_sky1.jpg", 
+            "url": "a_hat_full_of_sky",
+            "cat_url": "for_younger_readers",
+            "desc":"Terry Pratchett's thrity-second Discworld novel and second Tiffany Aching adventure, starring witches, feegles and a particulary stubborn force of evil!"
+        }, 
+        {
+            "title": "Going Postal", 
+            "theme": "Moist Von Lipwig", 
+            "image": "going_postal1.jpg", 
+            "url": "going_postal",
+            "cat_url": "moist_von_lipwig",
+            "desc":"Terry Pratchett's thirty-first Discworld novel, a first class adventure introducing Moist Von Lipwig, The Ankh-Morpork Post Office and Discworld Stamps!"
+        },
+        {
+            "title": "Thud!", 
+            "theme": "The City Watch", 
+            "image": "thud1.jpg", 
+            "url": "thud",
+            "cat_url": "the_city_watch",
+            "desc":"Terry Pratchett's thirty-fourth Discworld adventure, featuring a murder in Ankh-Morpork, the City Watch, and  Sam Vimes in a battle against darkness..."
+        },
+        {
+            "title": "Wintersmith", 
+            "theme": "For Younger Readers", 
+            "image": "wintersmith1.jpg", 
+            "url": "wintersmith",
+            "cat_url": "for_younger_readers",
+            "desc":"Terry Pratchett's thirty-fifth Discworld book and third Tiffany Aching adventure, featuring witches, feegles and a rather chilly spirit!"
+        }, 
+        {
+            "title": "Making Money", 
+            "theme": "Moist Von Lipwig", 
+            "image": "making_money1.jpg", 
+            "url": "making_money",
+            "cat_url": "moist_von_lipwig",
+            "desc":"Terry Pratchett's thirty-sixth Discworld adventure, starring Moist Von Lipwig in a new appointment at the Royal Bank of Ankh-Morpork!"
+        },
+        {
+            "title": "Unseen Academicals", 
+            "theme": "RincewindThe Wizards", 
+            "image": "unseen_academicals1.jpg", 
+            "url": "unseen_academicals",
+            "cat_url": "rincewind_the_wizards",
+            "desc":"Terry Pratchett's thirty-seventh Discworld adventure, featuring pies, fashion, Ankh-Morpork's beautiful game and the Unseen University!"
+        },
+        {
+            "title": "I Shall Wear Midnight", 
+            "theme": "For Younger Readers", 
+            "image": "i_shall_wear_midnight1.jpg", 
+            "url": "i_shall_wear_midnight1.jpg",
+            "cat_url": "for_younger_readers",
+            "desc":"Terry Pratchett's thirty-eighth Discworld book and fourth Tiffany Aching adventure, starring witches, the watch, Nac Mac Feegles and a seriously Cunning Man..."
+        }, 
+        {
+            "title": "Snuff!", 
+            "theme": "The City Watch", 
+            "image": "snuff1.jpg", 
+            "url": "snuff",
+            "cat_url": "the_city_watch",
+            "desc":"Vimes takes a holiday in Terry Pratchett's thirty-ninth Discworld adventure, featuring goblins, murders, and a dark supernatural alliance!"
+        },
+        {
+            "title": "Raising Steam", 
+            "theme": "Moist Von Lipwig", 
+            "image": "raising_steam1.jpg", 
+            "url": "raising_steam",
+            "cat_url": "moist_von_lipwig",
+            "desc":"The Age of Steam arrives in Ankh-Morpork in Terry Pratchett's fortieth Discworld book, an off-the-rails adventure starring Moist Von Lipwig, Harry King and an astonishing new invention!"
+        },
+        {
+            "title": "The Shepherd's Crown", 
+            "theme": "For Younger Readers", 
+            "image": "Flat-Shepherds-Crown-Cover.jpg", 
+            "url": "the_shepherds_crown.jpg",
+            "cat_url": "for_younger_readers",
+            "desc":"Buy Terry Pratchett's last Discworld book, and final Tiffany Aching adventure. A remarkable forty-first Discworld novel starring all your favourite witches, feegles, elves and an intelligent goat. Read with tissues to hand..."
+        }
+    ]
+ 
