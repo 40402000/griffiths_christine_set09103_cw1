@@ -48,7 +48,7 @@
         	        <li><a href="{{url_for('the_city_watch')}}">The City Watch</a></li>
 	                <li><a href="{{url_for('the_witches')}}">The Witches</a></li>
 	                <li><a href="{{url_for('death')}}">Death</a></li>
-			<li><a href="{{url_for('moist_von_lipwig')}}"</a>Moist Von Lipwig</a></li>
+			<li><a href="{{url_for('moist_von_lipwig')}}">Moist Von Lipwig</a></li>
 			<li><a href="{{url_for('rincewind_the_wizards')}}">Rincewind/The Wizards</a></li>
 			<li><a href="{{url_for('for_younger_readers')}}">For Younger Readers</a></li>
 				</ul>
@@ -58,11 +58,7 @@
 	<div class="row">
         <div class="col-sm-10 col-sm-offset-1">
 		<h1>Chronological Reading List</h1>
-		<img class="img-responsive" src="../static/images/librarian.JPG"/>
-		<p class="text-center"> This site gives you every possible reading order for 
-		Terry Pratchett's Discworld series of books. With a massive 41 books in 
-		the Discworld series, it can be hard to know where to begin, or even what's 
-		next... Find your perfect reading list below!</p>
+		<img class="img-responsive spaced" src="../static/images/librarian.JPG"/>
 		</div>
     </div>
     
@@ -73,7 +69,7 @@
 		{% for data in data %}
                     <li>{{data.title}}</li>
                     {% endfor %}		
-            </ul>
+            </ol>
         </div>
     </div>
 	

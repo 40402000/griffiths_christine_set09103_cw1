@@ -55,7 +55,12 @@ a {
 
 .footer {	
 	margin: 40px 0 30px 0;
+}
 
 li {
 	font-size: 16px; 
+}
+
+.spaced {
+	margin-bottom: 30px; 
 } 	
