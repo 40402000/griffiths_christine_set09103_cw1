@@ -44,12 +44,13 @@
             </div><!-- navbar-header -->
             <div class="collapse navbar-collapse" id="collapse">
                 <ul class="nav navbar-nav">
-	                <li><a href="#">Chronologically</a></li>
-        	        <li><a href="#">The City Watch</a></li>
-	                <li><a href="#">The Witches</a></li>
-	                <li><a href="#">Death</a></li>
-					<li><a href="#">Rincewind/The Wizards</a></li>
-					<li><a href="#">For Younger Readers</a></li>
+	                <li><a href="{{url_for('chronologically')}}">Chronologically</a></li>
+        	        <li><a href="{{url_for('the_city_watch')}}">The City Watch</a></li>
+	                <li><a href="{{url_for('the_witches')}}">The Witches</a></li>
+	                <li><a href="{{url_for('death')}}">Death</a></li>
+			<li><a href="{{url_for('moist_von_lipwig')}}"</a>Moist Von Lipwig</a></li>
+			<li><a href="{{url_for('rincewind_the_wizards')}}">Rincewind/The Wizards</a></li>
+			<li><a href="{{url_for('for_younger_readers')}}">For Younger Readers</a></li>
 				</ul>
 			</div><!-- collapse navbar-collapse -->
     	</div> <!-- close navbar container --> 
@@ -66,55 +67,56 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-5 col-sm-offset-1">
-			<h2>Chronologically</h2>
-			<img class="img-responsive" src="../static/images/librarian.JPG"/>
+			<h2>Chronologically</h2>	
+			<a href="{{url_for('chronologically')}}"><img class="img-responsive" src="../static/images/librarian.JPG"/></a>
 			<p>Have time on your hands? Or you're a stickler for order? The definative list: all the Discworld books, ordered by the year of publishing, this is the reading list for you.</p>
 		</div>
 	<div class="col-sm-5">
 			<h2>The City Watch</h2>
-			<img class="img-responsive" src="../static/images/wizards.JPG"/>
+			<a href="{{url_for('the_city_watch')}}"><img class="img-responsive" src="../static/images/watch.jpg"/></a>
 			<p>Policing Ankh-Morpork has never been easy, will the addition of dwarves, trolls and vampires make it any easier? Sam Vimes leads The City Watch whose motto is FABRICATI DIEM, PVNC.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-5 col-sm-offset-1">
 			<h2>The Witches</h2>
-			<img class="img-responsive" src="../static/images/witches.jpg"/>
+			<a href="{{url_for('the_witches')}}"><img class="img-responsive" src="../static/images/witches.jpg"/></a>
 			<p>When shall we three meet again? In the next book in the series. Granny Weatherwax, Nanny Ogg and Magrat Garlic star in The Witches series, alongside faries, ghosts and various anthropomorphic personifications.</p>
 		</div>
 		<div class="col-sm-5">
 			<h2>Death</h2>
-			<img class="img-responsive" src="../static/images/death.JPG"/>
+			<a href="{{url_for('death')}}"><img class="img-responsive" src="../static/images/death.JPG"/></a>
 			<p>Death isn't so bad, think of it as leaving the party early to avoid the rush. Oh and he likes curry and cats, "CATS, CATS  ARE NICE." NON TIMETIS MESSOR.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-5 col-sm-offset-1">
 			<h2>Moist Von Lipwig</h2>
-			<img class="img-responsive" src="../static/images/von_lipwig.JPG">
+			<a href="{{url_for('moist_von_lipwig')}}"><img class="img-responsive" src="../static/images/von_lipwig.JPG"></a>
 			<p>Forced into modernising Ankh-Morpork with institutions such as the Post Office and the Clacks, Moist has been known to participate in extreme sneezing to make life more exciting.</p> 
 		</div>
-		<div class="col-sm-5 col-sm-offset-1">
+		<div class="col-sm-5">
 			<h2>Rincewind/The Wizards</h2>
-			<img class="img-responsive" src="../static/images/wizards.jpg">
+			<a href="{{url_for('rincewind_the_wizards')}}"><img class="img-responsive" src="../static/images/wizards.jpg"></a>
 			<p>Rincewind isn't a particularly successful alumni of Unseen University. However, he is a successful survivor of many life-threatening adventures, employing his suprisingly effective technique of "running away". NVNC ID VIDES, NVNC NE VIDES.</p> 
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-4 col-sm-offset-4">
-			<h2>For Younger Readers</h2>
-			<img class="img-responsive" src="../static/images/tiffany.JPG">
+		<h2>For Younger Readers</h2>
+		<img class="img-responsive" src="../static/images/tiffany.JPG">
 			<p>Terry Pratchett's Discworld books for younger readers include the Carnegie Medal award-winning "The Amazing Maurice and his Educated Rodents. With an incredible cast of characters including Feegles, witches and talking rats.</p>
 		</div>
 			</div>
+			<hr>
 			<div class="footer">
 				<div class="row">
-					<div class=col-sm-12>
+					<div class="col-sm-4 col-sm-offset-2">
 						<a href="https://www.discworldemporium.com/">Discworld Emporium</a>
 					</div>
-					<div class=col-sm-12>
-							<a href="http://flask.pocoo.org/">Built with Flask</a>
-						</div>
+					<div class="col-sm-4 col-sm-offset-2">
+						<a href="http://flask.pocoo.org/">Built with Flask</a>
+					</div>
 				</div>
 			</div>
 </body>	
