@@ -15,6 +15,7 @@
    			<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 			<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+			<link rel="icon" type="image/x-icon" href="favicon.ico"/>
    			<!-- CDNs for scripts -->
    			<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -26,7 +27,6 @@
 			
 		</head>
 		<body>
-			<h1>CSS!</h1>
 		<div class="wrapper"> <!--closed in footer -->
 			<div class="container">
 	<!-- Navigation -->
@@ -52,7 +52,6 @@
 	                <li><a href="#">The Witches</a></li>
 	                <li><a href="#">Death</a></li>
 			<li><a href="#">Rincewind/The Wizards</a></li>
-			<li><a href="#">Tiffany Aching</a></li>
 			<li><a href="#">For Younger Readers</a></li>
 				</ul>
 			</div><!-- collapse navbar-collapse -->
@@ -72,38 +71,50 @@
 	<div class="row">
 		<div class="col-sm-5 col-sm-offset-1">
 			<h2>Chronologically</h2>
+			<img class="img-responsive" src="../static/images/librarian.JPG"/>
+			<p>Have time on your hands? Or you're a stickler for order? The definative list: all the Discworld books, ordered by the year of publishing, this is the reading list for you.</p>
 		</div>
-	<div class="col-sm-5 col-sm-offset-1">
+	<div class="col-sm-5">
 			<h2>The City Watch</h2>
+			<img class="img-responsive" src="../static/images/wizards.JPG"/>
+			<p>Policing Ankh-Morpork has never been easy, will the addition of dwarves, trolls and vampires make it any easier? Sam Vimes leads The City Watch whose motto is FABRICATI DIEM, PVNC.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-5 col-sm-offset-1">
 	<h2>The Witches</h2>
+	<img class="img-responsive" src="../static/images/witches.jpg"/>
+	<p>When shall we three meet again? In the next book in the series. Granny Weatherwax, Nanny Ogg and Magrat Garlic star in The Witches series, alongside faries, ghosts and various anthropomorphic personifications.</p>
 		</div>
-		<div class="col-sm-5 col-sm-offset-1">
+		<div class="col-sm-5">
 	<h2>Death</h2>
+	<img class="img-responsive" src="../static/images/death.JPG"/>
+		<p>Death isn't so bad, think of it as leaving the party early to avoid the rush. Oh and he likes curry and cats, "CATS, CATS  ARE NICE." NON TIMETIS MESSOR.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-5 col-sm-offset-1">
 	<h2>Moist Von Lipwig</h2>
+	<img class="img-responsive" src="../static/images/von_lipwig.JPG">
+	<p>Forced into modernising Ankh-Morpork with institutions such as the Post Office and the Clacks, Moist has been known to participate in extreme sneezing to make life more exciting.</p> 
 		</div>
 		<div class="col-sm-5 col-sm-offset-1">
 	<h2>Rincewind/The Wizards</h2>
+	<img class="img-responsive" src="../static/images/wizards.jpg">
+	<p>Rincewind isn't a particularly successful alumni of Unseen University. However, he is a successful survivor of many life-threatening adventures, employing his suprisingly effective technique of "running away". NVNC ID VIDES, NVNC NE VIDES.</p> 
 		</div>
 	</div>
 	<div class="row">
-			<div class="col-sm-5 col-sm-offset-1">
-	<h2>Tiffany Aching and the Nac Mac Feegles</h2>
-			</div>
-			<div class="col-sm-5 col-sm-offset-1">
+		<div class="col-sm-4 col-sm-offset-4">
 	<h2>For Younger Readers</h2>
 		</div>
 			</div>
 
 <ol>
-	<li>{{data[0].title}}</li>
+	<li>{{data[0].desc}}</li>
+<img class="img-responsive" src="../static/images/{{data[0].image}}"/>
+
+
 </ol>	
 
 
