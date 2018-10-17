@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content=IE=edge">
+			<meta name="viewport" content="width-device-width, initial-scale=1">
+			<meta name="description" content="Discworld Books App">
+			<meta name="author" content="Christine Griffiths">
+			<title>Discworld Books App</title>
+			<!--styles-->
+			<!-- Latest compiled and minified CSS -->
+			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" 
+			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<link rel="stylesheet" href="/static/css/main.css" type="text/css"> <!-- custome CSS after Bootstrap CSS -->
+   			<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+			<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+			<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+   			<!-- CDNs for scripts -->
+   			<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+			integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+			
+		</head>
+<body>
+<div class="wrapper"> <!--closed in footer -->
+			<div class="container">
+	<!-- Navigation -->
+	<nav class="navbar navbar-default">
+      <div id="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				
+			<a class="navbar-brand"  href="{{url_for('index')}}">DISCWORLD BOOKS APP</a>
+				
+            </div><!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+	                <li><a href="{{url_for('chronologically')}}">Chronologically</a></li>
+        	        <li><a href="{{url_for('the_city_watch')}}">The City Watch</a></li>
+	                <li><a href="{{url_for('the_witches')}}">The Witches</a></li>
+	                <li><a href="{{url_for('death')}}">Death</a></li>
+                    <li><a href="{{url_for('moist_von_lipwig')}}">Moist Von Lipwig</a></li>
+                    <li class="active"><a href="{{url_for('rincewind_the_wizards')}}">Rincewind/The Wizards</a></li>
+                    <li><a href="{{url_for('for_younger_readers')}}">For Younger Readers</a></li>
+				</ul>
+			</div><!-- collapse navbar-collapse -->
+    	</div> <!-- close navbar container --> 
+    </nav>
+	<div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+		<h1>The Rincewind/Wizards Series</h1>
+		<img class="img-responsive spaced" src="../static/images/wizards.jpg"/> 
+	</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <ul>
+                <li>{{data[0].title}}</li>		
+                <li>{{data[1].title}}</li>	
+                <li>{{data[4].title}}</li>	
+                <li>{{data[8].title}}</li>		
+                <li>{{data[16].title}}</li>	
+                <li>{{data[36].title}}</li>
+            </ul>
+        </div>
+    </div>
+	
+			<hr>
+			<div class="footer">
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2">
+						<a href="https://www.discworldemporium.com/">Discworld Emporium</a>
+					</div>
+					<div class="col-sm-4 col-sm-offset-2">
+						<a href="http://flask.pocoo.org/">Built with Flask</a>
+					</div>
+				</div>
+			</div>
+</body>	
+	</div> <!-- close body container -->
+</div> <!-- close wrapper -->
+</html>
