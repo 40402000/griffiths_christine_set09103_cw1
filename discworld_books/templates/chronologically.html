@@ -58,7 +58,7 @@
 	<div class="row">
         <div class="col-sm-10 col-sm-offset-1">
 		<h1>Chronological Reading List</h1>
-		<img class="img-responsive" src="../static/images/librarian.jpg"/>
+		<img class="img-responsive" src="../static/images/librarian.JPG"/>
 		<p class="text-center"> This site gives you every possible reading order for 
 		Terry Pratchett's Discworld series of books. With a massive 41 books in 
 		the Discworld series, it can be hard to know where to begin, or even what's 
@@ -69,47 +69,10 @@
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <ul>
-                <li>{{data[0].title}}</li>
-                <li>{{data[1].title}}</li>
-                <li>{{data[2].title}}</li>
-                <li>{{data[3].title}}</li>
-                <li>{{data[4].title}}</li>
-                <li>{{data[5].title}}</li>
-                <li>{{data[6].title}}</li>
-                <li>{{data[7].title}}</li>
-                <li>{{data[8].title}}</li>
-                <li>{{data[9].title}}</li>
-                <li>{{data[10].title}}</li>
-                <li>{{data[11].title}}</li>
-                <li>{{data[12].title}}</li>
-                <li>{{data[13].title}}</li>
-                <li>{{data[14].title}}</li>
-                <li>{{data[15].title}}</li>
-                <li>{{data[16].title}}</li>
-                <li>{{data[17].title}}</li>
-                <li>{{data[18].title}}</li>
-                <li>{{data[19].title}}</li>
-                <li>{{data[20].title}}</li>
-                <li>{{data[21].title}}</li>
-                <li>{{data[22].title}}</li>
-                <li>{{data[23].title}}</li>
-                <li>{{data[24].title}}</li>
-                <li>{{data[25].title}}</li>
-                <li>{{data[26].title}}</li>
-                <li>{{data[27].title}}</li>
-                <li>{{data[28].title}}</li>
-                <li>{{data[29].title}}</li>
-                <li>{{data[30].title}}</li>
-                <li>{{data[31].title}}</li>
-                <li>{{data[32].title}}</li>
-                <li>{{data[33].title}}</li>
-                <li>{{data[34].title}}</li>
-                <li>{{data[35].title}}</li>
-                <li>{{data[36].title}}</li>
-                <li>{{data[37].title}}</li>
-                <li>{{data[38].title}}</li>
-                <li>{{data[39].title}}</li>
-                <li>{{data[40].title}}</li>
+
+		{% for data in data %}
+                    <li>{{data.title}}</li>
+                    {% endfor %}		
             </ul>
         </div>
     </div>
