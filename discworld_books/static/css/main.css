@@ -1,0 +1,48 @@
+
+p, ol, ul, li, a {
+font-family: 'Noto Sans', serif;
+}
+
+h1, h2, h3, h4, h5 {
+font-family: 'Noto Serif', sans-serif;
+
+}
+
+div.container{
+background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+	}
+div.wrapper {
+background-image: url("../images/discworld.jpg");
+ background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+h1 {
+text-align: center;
+padding-bottom: 10px;
+}
+
+nav.navbar.navbar-default { 
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+	color: #333;
+}
+
+.navbar-default .navbar-nav>li>a {
+	text-decoration: underline;
+}
+
+p {
+	font-size: 16px;
+	padding-top:20px;
+}
