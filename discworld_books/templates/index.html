@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content=IE=edge">
+			<meta name="viewport" content="width-device-width, initial-scale=1">
+			<meta name="description" content="Discworld Books App">
+			<meta name="author" content="Christine Griffiths">
+			<title>Discworld Books App</title>
+			<!--styles-->
+			<!-- Latest compiled and minified CSS -->
+			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" 
+			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<link rel="stylesheet" href="/static/css/main.css" type="text/css"> <!-- custome CSS after Bootstrap CSS -->
+   			<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+			<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+   			<!-- CDNs for scripts -->
+   			<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+			integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+			
+		</head>
+		<body>
+			<h1>CSS!</h1>
+		<div class="wrapper"> <!--closed in footer -->
+			<div class="container">
+	<!-- Navigation -->
+	<nav class="navbar navbar-default">
+
+      <div id="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				
+			<a class="navbar-brand"  href="#">DISCWORLD BOOKS APP</a>
+				
+            </div><!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+
+	                <li><a href="#">Chronologically</a></li>
+        	        <li><a href="#">The City Watch</a></li>
+	                <li><a href="#">The Witches</a></li>
+	                <li><a href="#">Death</a></li>
+			<li><a href="#">Rincewind/The Wizards</a></li>
+			<li><a href="#">Tiffany Aching</a></li>
+			<li><a href="#">For Younger Readers</a></li>
+				</ul>
+			</div><!-- collapse navbar-collapse -->
+    	</div> <!-- close navbar container --> 
+    </nav>
+
+	<div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+		<h1>Welcome to the Discworld Books App!</h1>
+		<img class="img-responsive" src="../static/images/characters.jpg"/>
+		<p class="text-center"> This site gives you every possible reading order for 
+		Terry Pratchett's Discworld series of books. With a massive 41 books in 
+		the Discworld series, it can be hard to know where to begin, or even what's 
+		next... Find your perfect reading list below!</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-5 col-sm-offset-1">
+			<h2>Chronologically</h2>
+		</div>
+	<div class="col-sm-5 col-sm-offset-1">
+			<h2>The City Watch</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-5 col-sm-offset-1">
+	<h2>The Witches</h2>
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+	<h2>Death</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-5 col-sm-offset-1">
+	<h2>Moist Von Lipwig</h2>
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+	<h2>Rincewind/The Wizards</h2>
+		</div>
+	</div>
+	<div class="row">
+			<div class="col-sm-5 col-sm-offset-1">
+	<h2>Tiffany Aching and the Nac Mac Feegles</h2>
+			</div>
+			<div class="col-sm-5 col-sm-offset-1">
+	<h2>For Younger Readers</h2>
+		</div>
+			</div>
+
+<ol>
+	<li>{{data[0].title}}</li>
+</ol>	
+
+
+
+	</body>	
+	</div> <!-- close body container -->
+
+</div> <!-- close wrapper -->
+</html>
