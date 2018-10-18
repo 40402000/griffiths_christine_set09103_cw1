@@ -19,7 +19,7 @@
             "title": "Equal Rights", 
             "theme": "The Witches", 
             "image": "equal_rites1.jpg", 
-            "url": "the_colour_of_magic",
+            "url": "equal-rites",
             "cat_url": "the_witches",
             "desc":"Terry Pratchett’s third Discworld adventure introduces Granny Weatherwax in a story of magic and female empowerment - magical empowerment no less! Equal Rites sees the traditions of Unseen University challenged in a battle of the sexes initiated by the arrival of Eskarina Smith - the Discworld's first female wizard!"
         },
@@ -299,7 +299,7 @@
             "title": "I Shall Wear Midnight", 
             "theme": "For Younger Readers", 
             "image": "i_shall_wear_midnight1.jpg", 
-            "url": "i_shall_wear_midnight1.jpg",
+            "url": "i_shall_wear_midnight",
             "cat_url": "for_younger_readers",
             "desc":"Terry Pratchett's thirty-eighth Discworld book and fourth Tiffany Aching adventure, starring witches, the watch, Nac Mac Feegles and a seriously Cunning Man..."
         }, 
@@ -323,7 +323,7 @@
             "title": "The Shepherd's Crown", 
             "theme": "For Younger Readers", 
             "image": "Flat-Shepherds-Crown-Cover.jpg", 
-            "url": "the_shepherds_crown.jpg",
+            "url": "the_shepherds_crown",
             "cat_url": "for_younger_readers",
             "desc":"Buy Terry Pratchett's last Discworld book, and final Tiffany Aching adventure. A remarkable forty-first Discworld novel starring all your favourite witches, feegles, elves and an intelligent goat. Read with tissues to hand..."
         }
