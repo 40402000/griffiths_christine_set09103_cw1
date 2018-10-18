@@ -1,11 +1,6 @@
 
-p, ol, ul, li, a {
-font-family: "Times New Roman", Times, serif;
-}
-
-
-h1, h2, h3, h4, h5 {
-font-family: "Tahoma", Geneva, sans-serif;
+p, ol, ul, li, a, h1, h2, h3, h4, h5 {
+font-family: Tahoma, Geneva, sans-serif;
 }
 
 div.container{
@@ -31,7 +26,6 @@ nav.navbar.navbar-default {
 	box-shadow: none;
 	background-color: transparent;
 	font-size: 16px;
-	font-weight: bold;
 	padding-top: 30px;
 }
 
@@ -40,7 +34,7 @@ nav.navbar.navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 p {
