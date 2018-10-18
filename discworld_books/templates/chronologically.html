@@ -67,8 +67,9 @@
             <ol>
 
 		{% for data in data %}
-                    <li>{{data.title}}</li>
-                    {% endfor %}		
+                    <li><a href="/{{data.url}}">{{ data.title }}</a></li>
+                    {% endfor %}	
+	
             </ol>
         </div>
     </div>
