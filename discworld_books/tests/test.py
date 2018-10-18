@@ -38,7 +38,6 @@ class ProjectTests(unittest.TestCase):
 		self.assertIn(b'Death', response.data)
 		self.assertIn(b'Moist Von Lipwig', response.data)
 		self.assertIn(b'Rincewind/The Wizards', response.data)
-		self.assertIn(b'Tiffany Aching and the Nac Mac Feegles', response.data)
 		self.assertIn(b'For Younger Readers', response.data)
 
 
