@@ -55,18 +55,18 @@
 			</div><!-- collapse navbar-collapse -->
     	</div> <!-- close navbar container --> 
     </nav>
-    <li>{{book_data.desc}}</li>
+	<h1>{{book_data.title}}</h1>
 
 	<div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
-		<h1>{{book_data.title}}</h1>
+        <div class="col-sm-4 col-sm-offset-2">
 		<img class="img-responsive spaced" src="../static/images/{{book_data.image}}"/> 
 	</div>
-    </div>
-    
-    <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-                <p>{{book_data.desc}}</p>		
+        <div class="col-sm-6">
+		<h3>About the book</h3>
+                <p>{{book_data.desc}}</p>
+		<a href="/{{book_data.cat_url}}">Part of the {{book_data.theme}} Series</a>
+
+	
         </div>
     </div>
 	
