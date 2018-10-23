@@ -14,71 +14,72 @@
 			<link rel="icon" type="image/x-icon" href="favicon.ico"/>
 			
 		</head>
-<body>
-<div class="wrapper"> <!--closed in footer -->
-			<div class="container">
-	<!-- Navigation -->
-	<nav class="navbar navbar-default">
-      <div id="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+		<body>
+			<div class="wrapper"> <!--closed in footer -->
+				<div class="container">
+					<!-- Navigation -->
+					<nav class="navbar navbar-default">
+      						<div id="container">
+            						<div class="navbar-header">
+                						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    							<span class="sr-only">Toggle navigation</span>
+                    							<span class="icon-bar"></span>
+                    							<span class="icon-bar"></span>
+                    							<span class="icon-bar"></span>
+                						</button>
 				
-			<a class="navbar-brand"  href="{{url_for('index')}}">DISCWORLD BOOKS APP</a>
+								<a class="navbar-brand"  href="{{url_for('index')}}">DISCWORLD BOOKS APP</a>
 				
-            </div><!-- navbar-header -->
-            <div class="collapse navbar-collapse" id="collapse">
-                <ul class="nav navbar-nav">
-	                <li><a href="{{url_for('chronologically')}}">Chronologically</a></li>
-        	        <li><a href="{{url_for('the_city_watch')}}">The City Watch</a></li>
-	                <li><a href="{{url_for('the_witches')}}">The Witches</a></li>
-	                <li class="active"><a href="{{url_for('death')}}">Death</a></li>
-                    <li><a href="{{url_for('moist_von_lipwig')}}">Moist Von Lipwig</a></li>
-                    <li><a href="{{url_for('rincewind_the_wizards')}}">Rincewind/The Wizards</a></li>
-                    <li><a href="{{url_for('for_younger_readers')}}">For Younger Readers</a></li>
-				</ul>
-			</div><!-- collapse navbar-collapse -->
-    	</div> <!-- close navbar container --> 
-    </nav>
-	<div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
-		<h1>The Death Series</h1>
-		<img class="img-responsive spaced" src="../static/images/death.JPG"/> 
-	</div>
-    </div>
+            						</div><!-- navbar-header -->
+            						<div class="collapse navbar-collapse" id="collapse">
+                						<ul class="nav navbar-nav">
+	                						<li><a href="{{url_for('chronologically')}}">Chronologically</a></li>
+        	        						<li><a href="{{url_for('the_city_watch')}}">The City Watch</a></li>
+	                						<li><a href="{{url_for('the_witches')}}">The Witches</a></li>
+	                						<li class="active"><a href="{{url_for('death')}}">Death</a></li>
+                    							<li><a href="{{url_for('moist_von_lipwig')}}">Moist Von Lipwig</a></li>
+                    							<li><a href="{{url_for('rincewind_the_wizards')}}">Rincewind/The Wizards</a></li>
+                    							<li><a href="{{url_for('for_younger_readers')}}">For Younger Readers</a></li>
+								</ul>
+							</div><!-- collapse navbar-collapse -->
+    						</div> <!-- close navbar container --> 
+    					</nav>
+					<div class="row">
+        					<div class="col-sm-10 col-sm-offset-1">
+							<h1>The Death Series</h1>
+							<img class="img-responsive spaced" src="../static/images/death.JPG"/> 
+						</div>
+    					</div>
     
-    <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-            <ul>
-		<li><a href="/{{data[3].url}}">{{ data[3].title }}</a></li>
-                <li><a href="/{{data[10].url}}">{{ data[10].title }}</a></li>
-                <li><a href="/{{data[15].url}}">{{ data[15].title }}</a></li>
-                <li><a href="/{{data[19].url}}">{{ data[19].title }}</a></li>
-                <li><a href="/{{data[25].url}}">{{ data[25].title }}</a></li>	
-            </ul>
-        </div>
-    </div>
+    					<div class="row">
+        					<div class="col-sm-8 col-sm-offset-2">
+            						<ul>
+								<li><a href="/{{data[3].url}}">{{ data[3].title }}</a></li>
+                						<li><a href="/{{data[10].url}}">{{ data[10].title }}</a></li>
+                						<li><a href="/{{data[15].url}}">{{ data[15].title }}</a></li>
+                						<li><a href="/{{data[19].url}}">{{ data[19].title }}</a></li>
+                						<li><a href="/{{data[25].url}}">{{ data[25].title }}</a></li>	
+            						</ul>
+        					</div>
+    					</div>
 	
-			<hr>
-			<div class="footer">
-				<div class="row">
-					<div class="col-sm-4 col-sm-offset-2">
-						<a href="https://www.discworldemporium.com/">Discworld Emporium</a>
+					<hr>
+					<div class="footer">
+						<div class="row">
+							<div class="col-sm-4 col-sm-offset-2">
+								<a href="https://www.discworldemporium.com/">Discworld Emporium</a>
+							</div>
+							<div class="col-sm-4 col-sm-offset-2">
+								<a href="http://flask.pocoo.org/">Built with Flask</a>
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-4 col-sm-offset-2">
-						<a href="http://flask.pocoo.org/">Built with Flask</a>
-					</div>
-				</div>
-			</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/static/js/bootstrap.min.js"></script>
-</body>	
+
 	</div> <!-- close body container -->
 </div> <!-- close wrapper -->
+</body>
 </html>

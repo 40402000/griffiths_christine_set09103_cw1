@@ -14,88 +14,88 @@
 			<link rel="icon" type="image/x-icon" href="favicon.ico"/>
 			
 		</head>
-<body>
-<div class="wrapper"> <!--closed in footer -->
+		<body>
+		<div class="wrapper"> <!--closed in footer -->
 			<div class="container">
-	<!-- Navigation -->
-	<nav class="navbar navbar-default">
-      <div id="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+			<!-- Navigation -->
+			<nav class="navbar navbar-default">
+      				<div id="container">
+            				<div class="navbar-header">
+                				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    					<span class="sr-only">Toggle navigation</span>
+                    					<span class="icon-bar"></span>
+                    					<span class="icon-bar"></span>
+                    					<span class="icon-bar"></span>
+                				</button>
 				
-			<a class="navbar-brand"  href="{{url_for('index')}}">DISCWORLD BOOKS APP</a>
+						<a class="navbar-brand"  href="{{url_for('index')}}">DISCWORLD BOOKS APP</a>
 				
-            </div><!-- navbar-header -->
-            <div class="collapse navbar-collapse" id="collapse">
-                <ul class="nav navbar-nav">
-	                <li><a href="{{url_for('chronologically')}}">Chronologically</a></li>
-        	        <li><a href="{{url_for('the_city_watch')}}">The City Watch</a></li>
-	                <li><a href="{{url_for('the_witches')}}">The Witches</a></li>
-	                <li><a href="{{url_for('death')}}">Death</a></li>
-			<li><a href="{{url_for('moist_von_lipwig')}}"</a>Moist Von Lipwig</a></li>
-			<li><a href="{{url_for('rincewind_the_wizards')}}">Rincewind/The Wizards</a></li>
-			<li><a href="{{url_for('for_younger_readers')}}">For Younger Readers</a></li>
-				</ul>
-			</div><!-- collapse navbar-collapse -->
-    	</div> <!-- close navbar container --> 
-    </nav>
-	<div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
-		<h1>Welcome to the Discworld Books App!</h1>
-		<img class="img-responsive" src="../static/images/characters.jpg"/>
-		<p class="text-center"> This site gives you every possible reading order for 
-		Terry Pratchett's Discworld series of books. With a massive 41 books in 
-		the Discworld series, it can be difficult to know where to begin, or even what's 
-		next... Find your perfect reading list below!</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-5 col-sm-offset-1">
-			<h2>Chronologically</h2>	
-			<a href="{{url_for('chronologically')}}"><img class="img-responsive" src="../static/images/librarian.JPG"/></a>
-			<p>Have time on your hands? Or you're a stickler for order? The definitive list: all the Discworld books, ordered by the year of publishing, this is the reading list for you.</p>
-		</div>
-	<div class="col-sm-5">
-			<h2>The City Watch</h2>
-			<a href="{{url_for('the_city_watch')}}"><img class="img-responsive" src="../static/images/watch.jpg"/></a>
-			<p>Policing Ankh-Morpork has never been easy, will the addition of dwarves, trolls and vampires make it any easier? Sam Vimes leads The City Watch whose motto is FABRICATI DIEM, PVNC.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-5 col-sm-offset-1">
-			<h2>The Witches</h2>
-			<a href="{{url_for('the_witches')}}"><img class="img-responsive" src="../static/images/witches.jpg"/></a>
-			<p>When shall we three meet again? In the next book in the series. Granny Weatherwax, Nanny Ogg and Magrat Garlic star in The Witches series, alongside faries, ghosts and various anthropomorphic personifications.</p>
-		</div>
-		<div class="col-sm-5">
-			<h2>Death</h2>
-			<a href="{{url_for('death')}}"><img class="img-responsive" src="../static/images/death.JPG"/></a>
-			<p>Death isn't so bad, think of it as leaving the party early to avoid the rush. Oh and he likes curry and cats, "CATS, CATS  ARE NICE." NON TIMETIS MESSOR.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-5 col-sm-offset-1">
-			<h2>Moist Von Lipwig</h2>
-			<a href="{{url_for('moist_von_lipwig')}}"><img class="img-responsive" src="../static/images/von_lipwig.JPG"></a>
-			<p>Forced into modernising Ankh-Morpork with institutions such as the Post Office and the Clacks, Moist has been known to participate in extreme sneezing to make life more exciting.</p> 
-		</div>
-		<div class="col-sm-5">
-			<h2>Rincewind/The Wizards</h2>
-			<a href="{{url_for('rincewind_the_wizards')}}"><img class="img-responsive" src="../static/images/wizards.jpg"></a>
-			<p>Rincewind isn't a particularly successful alumni of Unseen University. However, he is a successful survivor of many life-threatening adventures, employing his suprisingly effective technique of "running away". NVNC ID VIDES, NVNC NE VIDES.</p> 
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3">
-		<h2>For Younger Readers</h2>
-		<a href="{{url_for('for_younger_readers')}}"><img class="img-responsive" src="../static/images/tiffany.JPG"></a>
-			<p>Terry Pratchett's Discworld books for younger readers include the Carnegie Medal award-winning "The Amazing Maurice and his Educated Rodents. With an incredible cast of characters including Feegles, witches and talking rats.</p>
-		</div>
+            				</div><!-- navbar-header -->
+            				<div class="collapse navbar-collapse" id="collapse">
+                				<ul class="nav navbar-nav">
+	                				<li><a href="{{url_for('chronologically')}}">Chronologically</a></li>
+        	        				<li><a href="{{url_for('the_city_watch')}}">The City Watch</a></li>
+	                				<li><a href="{{url_for('the_witches')}}">The Witches</a></li>
+	                				<li><a href="{{url_for('death')}}">Death</a></li>
+							<li><a href="{{url_for('moist_von_lipwig')}}"</a>Moist Von Lipwig</a></li>
+							<li><a href="{{url_for('rincewind_the_wizards')}}">Rincewind/The Wizards</a></li>
+							<li><a href="{{url_for('for_younger_readers')}}">For Younger Readers</a></li>
+						</ul>
+					</div><!-- collapse navbar-collapse -->
+    				</div> <!-- close navbar container --> 
+    			</nav>
+			<div class="row">
+        			<div class="col-sm-10 col-sm-offset-1">
+					<h1>Welcome to the Discworld Books App!</h1>
+					<img class="img-responsive" src="../static/images/characters.jpg"/>
+					<p class="text-center"> This site gives you every possible reading order for 
+						Terry Pratchett's Discworld series of books. With a massive 41 books in 
+						the Discworld series, it can be difficult to know where to begin, or even what's 
+						next... Find your perfect reading list below!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1">
+					<h2>Chronologically</h2>	
+					<a href="{{url_for('chronologically')}}"><img class="img-responsive" src="../static/images/librarian.JPG"/></a>
+					<p>Have time on your hands? Or you're a stickler for order? The definitive list: all the Discworld books, ordered by the year of publishing, this is the reading list for you.</p>
+				</div>
+				<div class="col-sm-5">
+					<h2>The City Watch</h2>
+					<a href="{{url_for('the_city_watch')}}"><img class="img-responsive" src="../static/images/watch.jpg"/></a>
+					<p>Policing Ankh-Morpork has never been easy, will the addition of dwarves, trolls and vampires make it any easier? Sam Vimes leads The City Watch whose motto is FABRICATI DIEM, PVNC.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1">
+					<h2>The Witches</h2>
+					<a href="{{url_for('the_witches')}}"><img class="img-responsive" src="../static/images/witches.jpg"/></a>
+					<p>When shall we three meet again? In the next book in the series. Granny Weatherwax, Nanny Ogg and Magrat Garlic star in The Witches series, alongside faries, ghosts and various anthropomorphic personifications.</p>
+				</div>
+				<div class="col-sm-5">
+					<h2>Death</h2>
+					<a href="{{url_for('death')}}"><img class="img-responsive" src="../static/images/death.JPG"/></a>
+					<p>Death isn't so bad, think of it as leaving the party early to avoid the rush. Oh and he likes curry and cats, "CATS, CATS  ARE NICE." NON TIMETIS MESSOR.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1">
+					<h2>Moist Von Lipwig</h2>
+					<a href="{{url_for('moist_von_lipwig')}}"><img class="img-responsive" src="../static/images/von_lipwig.JPG"></a>
+					<p>Forced into modernising Ankh-Morpork with institutions such as the Post Office and the Clacks, Moist has been known to participate in extreme sneezing to make life more exciting.</p> 
+				</div>
+				<div class="col-sm-5">
+					<h2>Rincewind/The Wizards</h2>
+					<a href="{{url_for('rincewind_the_wizards')}}"><img class="img-responsive" src="../static/images/wizards.jpg"></a>
+					<p>Rincewind isn't a particularly successful alumni of Unseen University. However, he is a successful survivor of many life-threatening adventures, employing his suprisingly effective technique of "running away". NVNC ID VIDES, NVNC NE VIDES.</p> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<h2>For Younger Readers</h2>
+					<a href="{{url_for('for_younger_readers')}}"><img class="img-responsive" src="../static/images/tiffany.JPG"></a>
+					<p>Terry Pratchett's Discworld books for younger readers include the Carnegie Medal award-winning "The Amazing Maurice and his Educated Rodents. With an incredible cast of characters including Feegles, witches and talking rats.</p>
+				</div>
 			</div>
 			<hr>
 			<div class="footer">
@@ -112,7 +112,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/static/js/bootstrap.min.js"></script>
-</body>	
-	</div> <!-- close body container -->
-</div> <!-- close wrapper -->
+		</div> <!-- close body container -->
+	</div> <!-- close wrapper -->
+
+	</body>	
 </html> 
